@@ -7,6 +7,13 @@ public class App {
     public static void main(String[] args) {
 //        System.out.println(grade(90));
         System.out.println(grade(50));
+
+        String str = """
+                java13全新的文本块，方便拼接文本信息
+                
+                下面还有内容
+                """;
+        System.out.println(str);
     }
 
     /**
