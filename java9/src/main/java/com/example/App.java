@@ -2,7 +2,9 @@ package com.example;
 
 import lombok.extern.java.Log;
 
-import java.util.logging.Logger;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Hello world!
@@ -19,5 +21,16 @@ public class App {
         test.log();
 
         test.test();
+
+
+        // 集合类,返回一个只读集合
+        Map<String, Integer> map = Map.of("key1", 1, "key2", 2);
+        log.info("map==" + map);
+
+        Set<String> set = Set.of("11", "22", "33");
+        log.info("set==" + set);
+
+        List<String> list = List.of("11", "22", "33");
+        log.info("list==" + list);
     }
 }
