@@ -7,6 +7,7 @@
         <module>java9</module>
         <module>java9/module-a</module>
         <module>java9/module-b</module>
+        <module>java10</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
