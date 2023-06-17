@@ -11,6 +11,13 @@ import java.util.logging.Logger;
 @Log
 public class App {
     public static void main(String[] args) {
+        // 测试模块功能
         log.info("hello java9");
+
+        // 测试接口的私有方法
+        Test test = () -> System.out.println("hello world");
+        test.log();
+
+        test.test();
     }
 }
