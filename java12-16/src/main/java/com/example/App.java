@@ -14,6 +14,17 @@ public class App {
                 下面还有内容
                 """;
         System.out.println(str);
+
+        // 空指针异常改进
+        String a = "a";
+        String b = null;
+        int length = a.length() + b.length();
+        System.out.println(length);
+
+        // 记录类型
+        Account account = new Account("xie", "123");
+        System.out.println(account.toString());
+
     }
 
     /**
