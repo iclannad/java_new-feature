@@ -10,7 +10,7 @@ public class App {
 
 
     // 不允许C继承A
-    class C extends A {
-
-    }
+//    class C extends A {
+//
+//    }
 }
